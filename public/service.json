@@ -1,0 +1,52 @@
+[
+    
+    { 
+        "service_id": "01",
+        "title": "Business Visa",
+        "img": "https://live.themewild.com/visapos/assets/img/service/01.jpg",
+        "price": "4000.00",
+        "description": "Business visa is a government-issued document that allows non-citizens to enter a foreign country temporarily for business purposes. A country may issue commercial visas for different types of business visits. The United States, for example, issues B-1 visas to professional athletes, investors, business-event attendees, lecturers and speakers, researchers, salespeople, commercial and industrial service engineers, and training program participants. Individuals wishing to visit a country on a commercial visa must meet certain requirements related to the purpose of their visit, the earning of income and their length of stay."
+        
+    },
+    { 
+        "service_id": "02",
+        "title": "student Visa",
+        "img": "https://live.themewild.com/visapos/assets/img/service/02.jpg",
+        "price": "6000.00",
+        "description": "A student visa is a government-issued immigration document granted by a consulate general or embassy, which allows you to legally study in a specific country for a specific date range. Typically, a visa is an endorsed sticker or stamp placed on the inside pages of your passport. Your student visa is as important as your passport; without it you will not be able to study abroad, if required by your host country."
+        
+    },
+    { 
+        "service_id": "03",
+        "title": "Job Seeker Visa",
+        "img": "https://live.themewild.com/visapos/assets/img/service/03.jpg",
+        "price": "8000.00",
+        "description": "The job seeker visa for Germany is a Long-Term Residency Permit, which allows you to stay in the country for six months and look for a job. If at the end of the six months you have found a place of employment, you will be given a German work visa or a German work permit and you will be allowed to work and live there."
+        
+    },
+    { 
+        "service_id": "04",
+        "title": "Tourist Visa",
+        "img": "https://live.themewild.com/visapos/assets/img/service/04.jpg",
+        "price": "5000.00",
+        "description": "Generally, a citizen of a foreign country who wishes to enter the United States must first obtain a visa, either a nonimmigrant visa for a temporary stay, or an immigrant visa for permanent residence. Visitor visas are nonimmigrant visas for persons who want to enter the United States temporarily for business (visa category B-1), for tourism (visa category B-2), or for a combination of both purposes (B-1/B-2)."
+        
+    },
+    { 
+        "service_id": "05",
+        "title": "Migrate Visa",
+        "img": "https://live.themewild.com/visapos/assets/img/service/05.jpg",
+        "price": "10000.00",
+        "description": "An immigrant visa is issued to a foreign national who intends to live and work permanently in the United States. In most cases, a relative or employer sponsors the individual by filing an application with U.S. Citizenship and Immigration Services (USCIS)."
+        
+    },
+    { 
+        "service_id": "06",
+        "title": "Transit Visa",
+        "img": "https://live.themewild.com/visapos/assets/img/service/06.jpg",
+        "price": "9000.00",
+        "description": "Transit (C) visas are nonimmigrant visas for persons traveling in immediate and continuous transit through the United States en route to another country, with few exceptions.You can apply for a transit visa by filling out the application for a Temporary Resident Visa and selecting transit visa from the list of options on the form."
+        
+    }
+    
+]

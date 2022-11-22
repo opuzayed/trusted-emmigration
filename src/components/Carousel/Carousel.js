@@ -1,54 +1,43 @@
 import React from "react";
+import CarouselItems from "../CarouselItems/CarouselItems";
 
 const Carousel = () => {
+    const caroDatas =[
+        {
+            img:"https://media.istockphoto.com/id/1189510256/photo/u-s-citizenship-and-immigration-services-office-located-in-downtown-san-francisco.jpg?s=612x612&w=0&k=20&c=MuSKGkSiGSLkP7bQxLt6dUZauSIJiIVB5FJICxLMiR4=",
+            prev: 4,
+            id: 1,
+            next:2
+        },
+        {
+            img:"https://thumbs.dreamstime.com/b/immigration-5361678.jpg",
+            prev: 1,
+            id: 2,
+            next:3
+        },
+        {
+            img:"https://st4.depositphotos.com/5586578/40098/i/600/depositphotos_400983154-stock-photo-passport-control-immigration-service-hand.jpg",
+            prev: 2,
+            id: 3,
+            next:4
+        },
+        {
+            img:"https://c8.alamy.com/comp/G9ND2W/immigration-service-launches-new-uniform-G9ND2W.jpg",
+            prev: 3,
+            id: 4,
+            next:1
+        },
+    ]
   return (
-    <div className="carousel w-full">
-      <div id="slide1" className="carousel-item relative w-full">
-        <img src="https://media.istockphoto.com/id/1189510256/photo/u-s-citizenship-and-immigration-services-office-located-in-downtown-san-francisco.jpg?s=612x612&w=0&k=20&c=MuSKGkSiGSLkP7bQxLt6dUZauSIJiIVB5FJICxLMiR4=" className="w-full" alt=" "/>
-        <div className="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
-          <a href="#slide4" className="btn btn-circle">
-            ❮
-          </a>
-          <a href="#slide2" className="btn btn-circle">
-            ❯
-          </a>
-        </div>
-      </div>
-      <div id="slide2" className="carousel-item relative w-full">
-        <img src="https://thumbs.dreamstime.com/b/immigration-5361678.jpg" className="w-full" alt=" "/>
-        <div className="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
-          <a href="#slide1" className="btn btn-circle">
-            ❮
-          </a>
-          <a href="#slide3" className="btn btn-circle">
-            ❯
-          </a>
-        </div>
-      </div>
-      <div id="slide3" className="carousel-item relative w-full">
-        <img src="https://st4.depositphotos.com/5586578/40098/i/600/depositphotos_400983154-stock-photo-passport-control-immigration-service-hand.jpg" className="w-full" alt=" " />
-        <div className="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
-          <a href="#slide2" className="btn btn-circle">
-            ❮
-          </a>
-          <a href="#slide4" className="btn btn-circle">
-            ❯
-          </a>
-        </div>
-      </div>
-      <div id="slide4" className="carousel-item relative w-full">
-        <img src="https://c8.alamy.com/comp/G9ND2W/immigration-service-launches-new-uniform-G9ND2W.jpg" className="w-full" alt=" "/>
-        <div className="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
-          <a href="#slide3" className="btn btn-circle">
-            ❮
-          </a>
-          <a href="#slide1" className="btn btn-circle">
-            ❯
-          </a>
-        </div>
-      </div>
+    <div>
+        {
+            caroDatas.map(caroData =><CarouselItems
+            key={caroData.id}
+            caroData={caroData}
+            ></CarouselItems>)
+        }
     </div>
-  );
+     );
 };
 
 export default Carousel;
