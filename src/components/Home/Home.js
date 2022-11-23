@@ -17,6 +17,9 @@ const Home = () => {
                     ></ServiceData>)
                 }
             </div>
+            <div className='flex flex-col items-center mt-5'>
+                <button className="btn btn-xs sm:btn-sm md:btn-md lg:btn-lg bg-orange-600">Show All Services</button>
+            </div>
 
         </div>
     );
