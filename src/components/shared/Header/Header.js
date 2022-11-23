@@ -16,7 +16,7 @@ const Header = () => {
         <ul className="menu menu-horizontal"> 
            <Link to='/'>Home</Link>
            <Link to='/services'>Our Services</Link>
-           <Link to='/home'></Link>
+           <Link to='/about'>About Us</Link>
            <Link to='/home'>Blog</Link>
         </ul>
       </div>
