@@ -6,7 +6,7 @@ import ShowServices from '../ShowServices/ShowServices';
 const Services = () => {
      const allServices = useLoaderData();
     return (
-        <div>
+        <div className='card-style'>
             
                 {
                     allServices.map(allService =><ShowServices
