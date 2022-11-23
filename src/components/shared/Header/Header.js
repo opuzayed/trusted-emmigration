@@ -5,8 +5,8 @@ const Header = () => {
   return (
     <div className="navbar bg-info">
       <div className="navbar-start">
-      <div className="w-10 rounded-full">
-          <img src="https://thumbs.dreamstime.com/b/world-travel-logo-vector-drawing-represents-design-40702766.jpg" alt=" "/>
+      <div className="w-10">
+          <img className='rounded-full' src="https://thumbs.dreamstime.com/b/world-travel-logo-vector-drawing-represents-design-40702766.jpg" alt=" "/>
         </div>
         <h2 className="btn btn-ghost normal-case text-3xl text-amber-500">
           Trusted-Immigration
