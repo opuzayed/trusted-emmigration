@@ -1,5 +1,5 @@
 import React from 'react';
-import { useLoaderData } from 'react-router-dom';
+import { useLoaderData, Link } from 'react-router-dom';
 import Carousel from '../Carousel/Carousel';
 import ServiceData from '../ServiceData/ServiceData';
 import './Home.css';
@@ -18,7 +18,7 @@ const Home = () => {
                 }
             </div>
             <div className='flex flex-col items-center mt-5'>
-                <button className="btn btn-xs sm:btn-sm md:btn-md lg:btn-lg bg-orange-600">Show All Services</button>
+                <Link to='/services'><button className="btn btn-xs sm:btn-sm md:btn-md lg:btn-lg bg-orange-600">Show All Services</button></Link>
             </div>
 
         </div>
