@@ -7,7 +7,7 @@ const About = () => {
         <img
           src="https://live.themewild.com/visapos/assets/img/skill/01.jpg"
           className="max-w-sm rounded-lg shadow-2xl"
-        />
+        alt="" />
         <div>
           <h1 className="text-5xl font-bold">We Provide Immigration 
           <br/>

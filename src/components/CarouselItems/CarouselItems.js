@@ -1,5 +1,6 @@
 import React from 'react';
 import './CarouselItems.css';
+import { Link } from 'react-router-dom';
 const CarouselItems = ({caroData}) => {
     const {id, prev, next, img} = caroData;
     return (
@@ -29,7 +30,7 @@ const CarouselItems = ({caroData}) => {
                     </p>
                 </div>
                 <div className="absolute flex justify-start transform -translate-y-1/2 w-2/5 left-24 top-3/4">
-                    <button className="btn btn-secondary mr-5">About Us</button>
+                    <Link to='/about'><button className="btn btn-secondary mr-5">About Us</button></Link>
                 </div>
           <div className="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
             <a href={`#slide${prev}`} className="btn btn-circle">
