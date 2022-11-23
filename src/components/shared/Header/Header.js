@@ -17,7 +17,7 @@ const Header = () => {
            <Link to='/'>Home</Link>
            <Link to='/services'>Our Services</Link>
            <Link to='/about'>About Us</Link>
-           <Link to='/home'>Blog</Link>
+           <Link to='/blog'>Blog</Link>
         </ul>
       </div>
       <div className="navbar-end">
