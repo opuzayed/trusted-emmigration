@@ -26,7 +26,7 @@ const ServiceData = ({ sData }) => {
                         " "
 
                     }
-                    <Link to={`/home/${_id}`}>View Details</Link>
+                    <Link to={`/service/${_id}`}> <button className="btn btn-info">View Details</button></Link>
                     {
                         " "
                     }
@@ -37,9 +37,7 @@ const ServiceData = ({ sData }) => {
             }
         </p>
         <p>Price:${price}</p>
-        <div className="card-actions">
-          <button className="btn btn-primary">Buy Now</button>
-        </div>
+        
       </div>
     </div>
   );
