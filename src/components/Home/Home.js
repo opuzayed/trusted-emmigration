@@ -3,6 +3,7 @@ import { useLoaderData, Link } from 'react-router-dom';
 import Carousel from '../Carousel/Carousel';
 import ServiceData from '../ServiceData/ServiceData';
 import './Home.css';
+import Skills from './../Skills/Skills';
 const Home = () => {
     const servicesData = useLoaderData();
     
@@ -18,9 +19,9 @@ const Home = () => {
                 }
             </div>
             <div className='flex flex-col items-center mt-5'>
-                <Link to='/services'><button className="btn btn-xs sm:btn-sm md:btn-md lg:btn-lg bg-orange-600">Show All Services</button></Link>
+                <Link to='/services'><button className="btn btn-xs sm:btn-sm md:btn-md lg:btn-lg bg-orange-600 mb-5">Show All Services</button></Link>
             </div>
-
+                <Skills></Skills>
         </div>
     );
 };
