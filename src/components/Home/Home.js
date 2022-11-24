@@ -4,6 +4,7 @@ import Carousel from '../Carousel/Carousel';
 import ServiceData from '../ServiceData/ServiceData';
 import './Home.css';
 import Skills from './../Skills/Skills';
+import Country from '../Country/Country';
 const Home = () => {
     const servicesData = useLoaderData();
     
@@ -21,7 +22,12 @@ const Home = () => {
             <div className='flex flex-col items-center mt-5'>
                 <Link to='/services'><button className="btn btn-xs sm:btn-sm md:btn-md lg:btn-lg bg-orange-600 mb-5">Show All Services</button></Link>
             </div>
-                <Skills></Skills>
+                <section>
+                    <Skills></Skills>
+                </section>
+                <section>
+                    <Country></Country>
+                </section>
         </div>
     );
 };

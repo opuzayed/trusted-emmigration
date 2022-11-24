@@ -36,14 +36,14 @@ const Skills = () => {
             className="progress progress-success w-1/2"
             value="80"
             max="100"
-          ></progress>
-          <p className="text-1xl">STUDENT CONSULTENCY</p>
+          >80%</progress>
+          <p className="text-1xl">IMMIGRATION CONSULTENCY</p>
           <progress
             className="progress progress-success w-1/2"
             value="60"
             max="100"
           ></progress>
-          <p className="text-1xl">STUDENT CONSULTENCY</p>
+          <p className="text-1xl">TOURIST CONSULTENCY</p>
           <progress
             className="progress progress-success w-1/2"
             value="90"
