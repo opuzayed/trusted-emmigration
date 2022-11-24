@@ -8,6 +8,7 @@ const Service = () => {
 
   return (
     <div>
+      <section>
       <div className="card w-auto bg-base-100 shadow-xl">
         <figure className="px-10 pt-10">
           <img
@@ -21,6 +22,10 @@ const Service = () => {
           <p>{description}</p>
         </div>
       </div>
+      </section>
+      <section>
+        
+      </section>
     </div>
   );
 };
