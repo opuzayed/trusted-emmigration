@@ -18,6 +18,7 @@ const Header = () => {
            <Link to='/services'>Our Services</Link>
            <Link to='/about'>About Us</Link>
            <Link to='/blog'>Blog</Link>
+           <Link to='/login'>Login</Link>
         </ul>
       </div>
       <div className="navbar-end">
