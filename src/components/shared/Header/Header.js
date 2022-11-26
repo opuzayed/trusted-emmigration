@@ -1,7 +1,15 @@
-import React from "react";
+import React, { useContext } from "react";
 import { Link } from "react-router-dom";
+import { AuthContext } from "../../../contexts/AuthProvider/AuthProvider";
 import './Header.css';
 const Header = () => {
+  const { user, logOut } = useContext(AuthContext);
+  
+  const handleLogOut = () => {
+    logOut()
+      .then(() => {})
+      .catch((error) => console.error(error));
+  };
   return (
     <div className="navbar bg-info">
       <div className="navbar-start">
@@ -18,12 +26,36 @@ const Header = () => {
            <Link to='/services'>Our Services</Link>
            <Link to='/about'>About Us</Link>
            <Link to='/blog'>Blog</Link>
-           <Link to='/login'>Login</Link>
-           <Link to='/signup'>SignUp</Link>
+           {/* <Link to='/login'>Login</Link>
+           <Link to='/signup'>SignUp</Link> */}
+            <>
+              {user?.uid ? (
+                <>
+                  {/* <span className="me-4 text-dark pe-none text-decoration-none">
+                    {user?.displayName}
+                  </span> */}
+                  <Link to='/review'>My Reviews</Link>
+                  <Link to='/addservice'>Add Service</Link>
+
+                  <button
+                     className="ml-8 btn btn-success text-white"
+                    onClick={handleLogOut}
+                  >
+                    Log out
+                  </button>
+                </>
+              ) : (
+                <>
+                  <Link to="/login">
+                    Login
+                  </Link>
+                  <Link to="/register">
+                    Register
+                  </Link>
+                </>
+              )}
+            </>
         </ul>
-      </div>
-      <div className="navbar-end">
-        <a className="btn">Get started</a>
       </div>
     </div>
   );
