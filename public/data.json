@@ -1,0 +1,156 @@
+[
+    {
+       
+        "service_id": "01",
+        "title": "Business Visa",
+        "img": "https://live.themewild.com/visapos/assets/img/service/01.jpg",
+        "price": "200.00",
+        "description": "Business visa is a government-issued document that allows non-citizens to enter a foreign country temporarily for business purposes. A country may issue commercial visas for different types of business visits. The United States, for example, issues B-1 visas to professional athletes, investors, business-event attendees, lecturers and speakers, researchers, salespeople, commercial and industrial service engineers, and training program participants. Individuals wishing to visit a country on a commercial visa must meet certain requirements related to the purpose of their visit, the earning of income and their length of stay.If you are planning business-related travel to the United States on a temporary basis, it’s important to have an information about the type of nonimmigrant visa you will need for travel.",
+        "facility": [
+            {
+                "name": "Dia Adams",
+                "img1": "https://images.unsplash.com/photo-1570295999919-56ceb5ecca61?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MjB8fHByb2ZpbGV8ZW58MHx8MHx8&w=1000&q=80",
+                "details": "We are very pleased with the speed of processing, the upfront time you spent with us making sure we had all items together prior to mailing the applications to you, and the great Q&A details/downloadable forms on your website"
+            },
+            {
+                "name": "Ariana",
+                "img1": "https://media.allure.com/photos/5d41d9228caadf0009c6949a/master/pass/ariana-grande-lede.jpg",
+                "details": " we were happy to be able to speak with a “live” representative each time we called with questions. It has been a pleasure doing business with VisaRite and I plan to use your services again when the other half of my family plans to visit China in a couple years The purpose of your intendednt travel and other facts regarding your plans will determine what type of visa is required under immigration law. This web document is a resource that will help you learn about the visa process in general, so that you will better understand the different steps involved."
+            },
+            {
+                "name": "smith",
+                "img1": "https://img.freepik.com/free-photo/pleasant-looking-serious-man-stands-profile-has-confident-expression-wears-casual-white-t-shirt_273609-16959.jpg?w=2000",
+                "details": "Your company has made this process very simple and easy. We will be sending our daughter and son's passports to you next month for a Tourist Visa."
+            }
+            
+        ]
+    },
+    {
+       
+        "service_id": "02",
+        "title": "student Visa",
+        "img": "https://live.themewild.com/visapos/assets/img/service/02.jpg",
+        "price": "150.00",
+        "description": "A student visa is a government-issued immigration document granted by a consulate general or embassy, which allows you to legally study in a specific country for a specific date range. Typically, a visa is an endorsed sticker or stamp placed on the inside pages of your passport. Your student visa is as important as your passport; without it you will not be able to study abroad, if required by your host country.",
+        "facility": [
+            {
+                "name": "Maxwell",
+                "img1": "https://images.unsplash.com/photo-1583864697784-a0efc8379f70?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTd8fG1hbGV8ZW58MHx8MHx8&w=1000&q=80",
+                "details": "Having worked with you once and experienced this personal and professional service we will feel very comfortable recommending Visa-Rite Services to our friends and relatives who will be coming to visit us in the future"
+            },
+            {
+                "name": "Stokes",
+                "img1": "https://images.pexels.com/photos/220453/pexels-photo-220453.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500",
+                "details": "It was a pleasure to do business with you. I would recommend your company to others. Your directions were simple and clear and easy to follow"
+            },
+            {
+                "name": "Finch",
+                "img1":"https://img.freepik.com/free-photo/half-profile-image-handsome-young-caucasian-man-with-good-skin-brown-eyes-black-stylish-hair-stubble-posing-isolated-against-blank-wall-looking-front-him-smiling_343059-4560.jpg?w=2000",
+                "details": " I especially liked receiving an e-mail updating me on the status of my visa application.Your directions were simple and clear and easy to follow. "
+            }
+            
+        ]
+    },
+    {
+        
+        "service_id": "03",
+        "title": "Job Seeker Visa",
+        "img": "https://live.themewild.com/visapos/assets/img/service/03.jpg",
+        "price": "500.00",
+        "description": "The job seeker visa for Germany is a Long-Term Residency Permit, which allows you to stay in the country for six months and look for a job. If at the end of the six months you have found a place of employment, you will be given a German work visa or a German work permit and you will be allowed to work and live there.",
+        "facility": [
+            {
+                "name": "babar",
+                "img1":"https://www.mensjournal.com/wp-content/uploads/mf/1280-selfie.jpg?w=900&quality=86&strip=all",
+                "details": "Thank you for making the process of getting a China visa so easy. Your phone and email response was prompt and courteous"
+            },
+            {
+                "name": "Hakim",
+                "img1":"https://image.shutterstock.com/image-photo/stock-photo-close-up-headshot-portrait-of-smiling-s-caucasian-man-look-at-camera-posing-in-own-flat-or-250nw-1936610998.jpg",
+                "details": "I received my passport with the visa one day earlier than I had anticipated. Thank you also for providing a 6-month visa, especially with all of the SARS"
+            },
+            {
+                "name": "leo",
+                "img1":"https://media.istockphoto.com/id/1351147752/photo/studio-portrait-of-attractive-20-year-old-bearded-man.jpg?b=1&s=170667a&w=0&k=20&c=N-Uwgbn8qhGypoXFB6keEEC3mW0qhNynAqBqd8oNJw0=",
+                "details": "I wanted to thank you for assisting our CEO with obtaining his visa to travel to China. The process was seamless, and was very easy to follow. After attempting to obtain directly through the Chinese government"
+            }
+            
+        ]
+    },
+    {
+        
+        "service_id": "04",
+        "title": "Tourist Visa",
+        "img": "https://live.themewild.com/visapos/assets/img/service/04.jpg",
+        "price": "300.00",
+        "description": "Generally, a citizen of a foreign country who wishes to enter the United States must first obtain a visa, either a nonimmigrant visa for a temporary stay, or an immigrant visa for permanent residence. Visitor visas are nonimmigrant visas for persons who want to enter the United States temporarily for business (visa category B-1), for tourism (visa category B-2), or for a combination of both purposes (B-1/B-2).",
+        "facility": [
+            {
+                "name": "Caprio",
+                "img1":"https://media.istockphoto.com/id/1300512215/photo/headshot-portrait-of-smiling-ethnic-businessman-in-office.jpg?s=612x612&w=0&k=20&c=QjebAlXBgee05B3rcLDAtOaMtmdLjtZ5Yg9IJoiy-VY=",
+                "details": " I was pleasantly surprised to have heard of your website, as I found it very difficult to navigate my way through their instructions."
+            },
+            {
+                "name": "Azam",
+                "img1":"https://i.pinimg.com/474x/98/51/1e/98511ee98a1930b8938e42caf0904d2d.jpg",
+                "details": "I wanted to thank you for assisting our CEO with obtaining his visa to travel to USA. The process was seamless, and was very easy to follow."
+            },
+            {
+                "name": "Mushfiq",
+                "img1":"https://thumbs.dreamstime.com/b/sexy-handsome-young-man-modern-hairstyle-running-his-hand-his-hair-as-looks-away-profile-view-portrait-sexy-215790158.jpg",
+                "details": "After attempting to obtain directly through the USA government, I was pleasantly surprised to have heard of your website, as I found it very difficult to navigate my way through their instructions"
+            }
+        ]
+    },
+    {
+        
+        "service_id": "05",
+        "title": "Migrate Visa",
+        "img": "https://live.themewild.com/visapos/assets/img/service/05.jpg",
+        "price": "400.00",
+        "description": "An immigrant visa is issued to a foreign national who intends to live and work permanently in the United States. In most cases, a relative or employer sponsors the individual by filing an application with U.S. Citizenship and Immigration Services (USCIS).",
+        "facility": [
+            {
+                "name": "Anthony",
+                "img1":"https://i.pinimg.com/474x/98/51/1e/98511ee98a1930b8938e42caf0904d2d.jpg",
+                "details": "Thank you for your courteous service and speedily delivery of the visa. We will definitely look to your services if we are ever in need of obtaining a travel visa in the future."
+            },
+            {
+                "name": "Black",
+                "img1":"https://images.pexels.com/photos/771742/pexels-photo-771742.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500",
+                "details": "My many questions were answered very quickly and very completely. The email notifications of the status of my Visa were very helpful. Being able to choose different services for different time frames was great. There is nothing that could have made the process any better."
+            },
+            {
+                "name": "Rodrigo",
+                "img1":"https://media.istockphoto.com/id/1322275410/photo/profile-of-young-man.jpg?b=1&s=170667a&w=0&k=20&c=86FMyZeMtHqqcudnTIf0s8_QqMD2AZpio0O_1f76w5c=",
+                "details": "Thank you for the prompt shipment of my processing of the visa to China and I look forward to getting everything in order. China will be an awesome experience even if the world is not."
+            }
+        ]
+    },
+    {
+       
+        "service_id": "06",
+        "title": "Transit Visa",
+        "img": "https://live.themewild.com/visapos/assets/img/service/06.jpg",
+        "price": "350.00",
+        "description": "Transit (C) visas are nonimmigrant visas for persons traveling in immediate and continuous transit through the United States en route to another country, with few exceptions.You can apply for a transit visa by filling out the application for a Temporary Resident Visa and selecting transit visa from the list of options on the form.",
+        "facility": [
+            {
+                "name": "Rock",
+                "img1":"https://img.freepik.com/free-photo/profile-shot-young-serious-man-teenage-college-student-looking-left-showing-one-side-face-haircut-standing-against-white-background_176420-45855.jpg?w=2000",
+                "details": "I am so glad that I researched other companies and choose you. Have a happy spring!!!!!!!!!"
+            },
+            {
+                "name": "Mahbub",
+                "img1":"https://media.istockphoto.com/id/679727680/photo/studio-shot-of-young-muscular-handsome-man-against-gray-background.jpg?s=612x612&w=0&k=20&c=Pfu84aVFdfZgYlPjyNWkisqcbfJX28ZVHfh5ePkr3kQ=",
+                "details": "VisaRite sure took all the guesswork out of obtaining a China visa AND they exceeded their service promise......It doesn't get any better than this......"
+            },
+            {
+                "name": "Steve",
+                "img1":"https://media.istockphoto.com/id/1325013514/photo/young-man-portrait.jpg?s=612x612&w=0&k=20&c=FpZRzeQmapNtn4I9rM1K1Sd_dhAOk7XNEG3WPDzhSeQ=",
+                "details": "Thank you very much for the efficient, curteous, and professional service you provided while handling my visa application. I will use your service in the future and I highly recommend that others do the same."
+            }
+        ]
+    }
+]
+
