@@ -1,17 +1,16 @@
 import React, { useContext, useState } from "react";
 // import Form from "react-bootstrap/Form";
-import toast from "react-hot-toast";
+//import toast from "react-hot-toast";
 // import Button from "react-bootstrap/Button";
 // import ButtonGroup from "react-bootstrap/ButtonGroup";
-import { FaGoogle, FaGithub } from "react-icons/fa";
+import { FaGoogle } from "react-icons/fa";
 import { Link, useLocation, useNavigate } from "react-router-dom";
 import { AuthContext } from "../../../contexts/AuthProvider/AuthProvider";
 import { GoogleAuthProvider } from "firebase/auth";
 
 const Login = () => {
   const [error, setError] = useState("");
-  const { providerLogin, githubLogin, signIn, setLoading } =
-    useContext(AuthContext);
+  const { providerLogin, signIn, setLoading } = useContext(AuthContext);
   const navigate = useNavigate();
   const location = useLocation();
 
@@ -61,73 +60,49 @@ const Login = () => {
   }; 
 
   return (
-    <div className="lr-form">
-      <h4 style={{ color: "green", fontWeight: "bold", marginBottom: "35px" }}>
-        Welcome Back
-      </h4>
-      <Form onSubmit={handleSubmit}>
-        <Form.Group className="mb-3" controlId="formBasicEmail">
-          <Form.Control
-            name="email"
-            type="email"
-            placeholder="Enter email"
-            required
-          />
-        </Form.Group>
-        <Form.Group className="mb-3" controlId="formBasicPassword">
-          <Form.Control
-            name="password"
-            type="password"
-            placeholder="Password"
-            required
-          />
-        </Form.Group>
-
-        <div class="d-grid gap-2">
-          <button class="btn btn-primary py-1" type="submit">
-            <span style={{ fontWeight: "bold", fontSize: "20px" }}> Login</span>
-          </button>
-        </div>
-        <Form.Text className="text-danger">{error}</Form.Text>
-      </Form>
-      <div className="log-mid">
-        <p style={{ fontWeight: "bold", marginTop: "10px" }}>
-          Don't have an account?Please <Link to="/register">Register Now</Link>
-        </p>
-
-        <hr />
-
-        <p
+    <div className="hero w-full my-20">
+    <div className="hero-content grid gap-20 md:grid-cols-2 flex-col lg:flex-row">
+        {/* <div className="text-center lg:text-left">
+            <img className='w-3/4' src={img} alt="" />
+        </div> */}
+        <div className="card flex-shrink-0 w-full max-w-sm shadow-2xl bg-base-100 py-20">
+            <h1 className="text-5xl text-center font-bold">Login</h1>
+            <form onSubmit={handleSubmit} className="card-body">
+                <div className="form-control">
+                    <label className="label">
+                        <span className="label-text">Email</span>
+                    </label>
+                    <input type="text" name='email' placeholder="email" className="input input-bordered" required/>
+                </div>
+                <div className="form-control">
+                    <label className="label">
+                        <span className="label-text">Password</span>
+                    </label>
+                    <input type="password" name='password' placeholder="password" className="input input-bordered" required/>
+                    
+                </div>
+                <div className="form-control mt-6">
+                    <input className="btn btn-primary" type="submit" value="Login" />
+                </div>
+            </form>
+            <p className='text-center'>Don't have an account <Link className='text-orange-600 font-bold' to="/signup">Sign Up</Link> </p>
+            <hr />
+            <p
           style={{ fontWeight: "bold", marginTop: "10px", textAlign: "center" }}
         >
           Or Login With
         </p>
-      </div>
-      <ButtonGroup vertical className="w-100">
-        <div className="row w-100">
-          <div className="col-6">
-            <Button
+        <button
               onClick={handleGoogleSignIn}
-              className="w-100"
-              variant="outline-primary"
+              className="w-100 btn btn-wide btn-warning"
+             
             >
-              {" "}
-              <FaGoogle></FaGoogle> Login with Google
-            </Button>
-          </div>
-          {/* <div className="col-6">
-            <Button
-              onClick={handleGithubSignIn}
-              className="w-100"
-              variant="outline-dark"
-            >
-              {" "}
-              <FaGithub></FaGithub> Login with Github
-            </Button>
-          </div> */}
+              {/* {" "} */}
+              <FaGoogle className='text-green-600 font-bold'></FaGoogle> Login with Google
+            </button>
         </div>
-      </ButtonGroup>
     </div>
+</div>
   );
 };
 
