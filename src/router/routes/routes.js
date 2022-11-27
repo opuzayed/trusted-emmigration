@@ -1,6 +1,6 @@
 import { createBrowserRouter } from 'react-router-dom';
 import About from '../../components/About/About';
-import AddService from '../../components/Add Service/AddService/AddService';
+import AddService from '../../components/AddService/AddService/AddService';
 import Blog from '../../components/Blog/Blog';
 import Home from '../../components/Home/Home';
 import Login from '../../components/Login/Login/Login';
@@ -9,6 +9,7 @@ import Service from '../../components/Service/Service';
 import Services from '../../components/Services/Services';
 import SignUp from '../../components/SignUp/SignUp/SignUp';
 import Main from '../../layout/Main/Main';
+import PrivateRoute from './PrivateRoute/PrivateRoute';
 
 export const router = createBrowserRouter([
     {
@@ -31,6 +32,16 @@ export const router = createBrowserRouter([
                 loader:({params}) => fetch(`http://localhost:5000/service/${params.id}`)
             },
             {
+                path:'/checkout/:id',
+                element:<PrivateRoute><AddService></AddService></PrivateRoute>,
+                loader:({params}) => fetch(`http://localhost:5000/addservice/${params.id}`)
+            },
+            {
+                path:'/addservice',
+                element:<PrivateRoute><Reviews></Reviews></PrivateRoute>
+            },
+
+            {
                 path:'/about',
                 element:<About></About>
             },
@@ -48,12 +59,9 @@ export const router = createBrowserRouter([
             },
             {
                 path:'/review',
-                element:<Reviews></Reviews>
-            },
-            {
-                path:'/addservice',
-                element:<AddService></AddService>
+                element:<PrivateRoute><Reviews></Reviews></PrivateRoute>
             }
+            
         ]
         
     }

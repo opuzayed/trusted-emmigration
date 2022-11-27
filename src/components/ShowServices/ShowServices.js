@@ -38,7 +38,9 @@ const ShowServices = ({allService}) => {
             }
         </p>
         <p>Price:${price}</p>
-        
+        <div>
+        <Link to={`/checkout/${_id}`}> <button className="btn btn-info">Add Service</button></Link>
+        </div>
       </div>
     </div>
   );

@@ -1,12 +1,12 @@
 import React from "react";
-import { useLoaderData } from "react-router-dom";
+import { Link, useLoaderData } from "react-router-dom";
 import FacilityService from "../FacilityService/FacilityService";
 
 const Service = () => {
   const singleService = useLoaderData();
   console.log(singleService.facility);
   
-  const { img, title, description} = singleService;
+  const { _id, img, title, description} = singleService;
   const facilityServices = singleService.facility;
 
   return (
@@ -34,6 +34,9 @@ const Service = () => {
         }
         </div>
       </section>
+      <div>
+      <Link to={`/checkout/${_id}`}><button className="btn btn-outline btn-warning">Add Review</button></Link>
+      </div>
     </div>
   );
 };
