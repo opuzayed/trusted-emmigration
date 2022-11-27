@@ -7,7 +7,7 @@ const ShowServices = ({ allService }) => {
   const { _id, title, img, price, description } = allService;
   return (
     <div className="card w-auto bg-base-100 shadow-xl">
-      <figure className="px-10 pt-10">
+      <figure className="px-10 pt-10" >
         <PhotoProvider>
           <PhotoView src={img}>
             <img src={img} alt="" className="rounded-xl" />

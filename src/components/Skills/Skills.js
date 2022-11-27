@@ -6,11 +6,11 @@ const Skills = () => {
       <div>
         <div className="hero-content flex-col lg:flex-row">
           <div>
-          <img
-            src="https://live.themewild.com/visapos/assets/img/about/01.jpg"
-            className="max-w-sm rounded-lg shadow-2xl"
-            alt=""
-          />
+            <img
+              src="https://live.themewild.com/visapos/assets/img/about/01.jpg"
+              className="max-w-sm rounded-lg shadow-2xl"
+              alt=""
+            />
           </div>
           <div>
             <h3 className="text-2xl text-lime-300">OUR SKILLS</h3>
@@ -28,27 +28,29 @@ const Skills = () => {
               Thailand, United States or United Kingdom we can help you with
               your pursuit.
             </p>
+            <div>
+              <p className="text-1xl">STUDENT CONSULTENCY</p>
+              <progress
+                className="progress progress-success w-1/2"
+                value="80"
+                max="100"
+              >
+                80%
+              </progress>
+              <p className="text-1xl">IMMIGRATION CONSULTENCY</p>
+              <progress
+                className="progress progress-success w-1/2"
+                value="60"
+                max="100"
+              ></progress>
+              <p className="text-1xl">TOURIST CONSULTENCY</p>
+              <progress
+                className="progress progress-success w-1/2"
+                value="90"
+                max="100"
+              ></progress>
+            </div>
           </div>
-        </div>
-        <div>
-          <p className="text-1xl">STUDENT CONSULTENCY</p>
-          <progress
-            className="progress progress-success w-1/2"
-            value="80"
-            max="100"
-          >80%</progress>
-          <p className="text-1xl">IMMIGRATION CONSULTENCY</p>
-          <progress
-            className="progress progress-success w-1/2"
-            value="60"
-            max="100"
-          ></progress>
-          <p className="text-1xl">TOURIST CONSULTENCY</p>
-          <progress
-            className="progress progress-success w-1/2"
-            value="90"
-            max="100"
-          ></progress>
         </div>
       </div>
     </div>
