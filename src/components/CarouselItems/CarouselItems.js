@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 const CarouselItems = ({ caroData }) => {
   const { id, prev, next, img } = caroData;
   return (
-    <div className="carousel w-full">
+   
       <div id={`slide${id}`} className="carousel-item relative w-full">
         <div className="carousel-img">
           <img src={img} className="w-full" alt=" " />
@@ -42,7 +42,7 @@ const CarouselItems = ({ caroData }) => {
           </a>
         </div>
       </div>
-    </div>
+   
   );
 };
 
