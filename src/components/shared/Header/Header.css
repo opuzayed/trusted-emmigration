@@ -1,5 +1,18 @@
 ul a {
-    margin-left: 35px;
-    color:white;
-    font-weight: 600;
+  margin-left: 35px;
+  color: white;
+  font-weight: 600;
+}
+
+.menu-horizontal a:hover {
+  color: #fff;
+}
+
+@media screen and (min-width: 810px) {
+  .menu-horizontal {
+    margin-left: auto;
+  }
+  .menu-horizontal a {
+    padding: 10px 15px;
+  }
 }
